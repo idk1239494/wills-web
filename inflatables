@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text and Panorama View</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling for text content */
+        .content {
+            text-align: center;
+            margin: 20px;
+            max-width: 800px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px;
+            max-width: 800px;
+        }
+
+        p {
+            padding: 20px;
+            max-width: 800px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        /* Styling for panoramic container */
+        .panorama-container {
+            width: 100%;
+            max-width: 1000px;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 20px auto;
+        }
+
+        /* Styling for the image */
+        .panorama-container img {
+            width: 200%;
+            animation: scroll 10s linear infinite;
+        }
+
+        /* Animation for continuous scrolling effect */
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* Extra content styling */
+        .extra-content {
+            padding: 20px;
+            max-width: 800px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Text Content -->
+    <div class="extra-content">
+        <h1>Hello, Annie</h1>
+        <p>I’ve got way too much free time..</p>
+
+<br><p>You may already probably know that I am obsessed with anything inflatable. Speaking of which, I possess about 60 inflatables, which is the most in my neighborhood. Most are bland, but some have unique features, or some of them are very rare today.</p>
+
+<h1>_________________________</h1>
+<h1>What are inflatables?</h1>
+
+<br><p>Inflatables are fabric objects made up of mostly heavy duty nylon silk or polyester. Every inflatable has a unique shape to express something, particularly for decorative purposes. They can be shaped into characters, objects, or anything else. Inflatables are just piles of fabric without a fan. The fan is a blower on the back, which is where the cord is. Once plugged in, the blades inside the fan will start spinning, and will begin blowing air into the inflatable, thus causing it to 'inflate,' until it is fully inflated. Almost all outdoor inflatables have one or more light to make them glow in the dark. The most common lights are LEDs (cheap fans) and bulbs (base fan). The lights turn on once the fan receives electricity, because the fan shares the electricity via a wire inside the inflatable, causing it to turn on. Some lights may be colored, or some lights can be flashing lights to make it stand out more. Most new inflatables have fabric in good condition, but old ones tend to be more worn, and the fabric is more soft and silky. Most inflatables are made by Gemmy Industries, or more simply known as Gemmy.</p>
+
+<img src="https://i.ibb.co/KyPX9v8/Untitled1615-20241102120517.png" width="400" height="200">
+<p>An example of the fan sharing electricity to the lights using an electrical wire</p>
+
+<h1>_________________________</h1>
+<h1>Cheap Fan vs. Base Fan</h1>
+
+<br><p>Cheap fans are small fans meant for 2-7ft inflatables. Cheap fans come in different sizes and take up a different amount of volts. The weakest cheap fan is only about 2 inches wide. The medium cheap fan is about 2 inches. The strongest is about3 inches. Finding the strongest cheap fan is actually quite hard. Base fans however, are a new league. Base fans are meant for inflatables 7-11ft tall. Most base fans are all the same strength and size, which is 10 inches. Base fans are much stronger and louder than cheap fans. Unlike cheap fans, base fan inflatables do not use LEDs, but use bulbs that are inside the inflatable loosely connected to the fan and the top of the inside, not connected by the inflatable’s wall. However, they both do work the same way of blowing air.</p>
+
+<img src="https://i.ibb.co/KWMgQF2/Untitled1615-20241102122505.png" width="400" height="200">
+<p>A comparison between cheap fan (left) and base fan (right). Pretty big different, innit?</p>
+<p>_______________________ </p>
+    <div class="button-container">
+        <button class="button" onclick="playSound('sound1')">Cheap fan sound</button>
+        <button class="button" onclick="playSound('sound2')">Base fan sound</button>
+<p>___________</p>
+<br><p>Cheap and base fans also sound very different. Click the buttons above for comparison.</p>
+    </div>
+
+<h1>_________________________</h1>
+<h1>Unique Inflatables</h1>
+
+<br><p>Some inflatables have extra utilities that make them different from bland inflatables. They may have real hair, be animated, have flashing lights, or many other things. One example is a shivering animation. Shivering inflatables are by far the most common animated inflatables. Shivering inflatables work the same way their lights work, the fan shares electricity through a wire to the lights, but also to a mechanic inside the inflatable. When this mechanic turns on, an object attached to a motor on the inside of the mechanic will begin to spin quickly. This causes the outside to vigorously shake, thus creating a ‘shivering’ motion within the inflatable. Another type is an inflatable that has flashing lights, where the lights turn off and to stand and pop out more.</p>
+
+<img src="https://i.ibb.co/gy000gV/IMG-9810.gif" width="400" height="200">
+<p>A shivering mechanic, off (left) and on (right)</p>
+
+<h1>_________________________</h1>
+<h1>Rare Inflatables</h1>
+
+<br><p>Rare inflatables are inflatables that are very hard to find today or are no longer readily available. These inflatables can be from 2013-2002. Rare inflatables are almost always worn down, and their boxes are most likely damaged. The fan also might sound different due to it’s age. Rare inflatables may come from any company, but most of the time they are from Gemmy. Some rare inflatables I have is a 3.5 foot snowman, 3.5 foot witch, Red from angry birds with a santa hat, a Hello Kitty with a dress and wings, and many more. But the inflatable that is possibly my rarest is a very simple inflatable mummy holding a sight that says ‘Happy Halloween,’ pictured below.</p>
+
+<img src="https://i.ibb.co/M6n0Shj/IMG-9397.jpg" width="504" height="378">
+
+<p>As you can see, the mummy is so simple to the point it kind of looks like a ghost. Though not visible in the photo, the top of the mummy’s head is stained with something, and it feels very silky and soft, much like all other old inflatables. I could only find 6 photos of this mummy that exists, and none of them were selling the mummy. And all of the mummies in the photos did not have the flipped letters in the sign like the one I have, which might have been an error. This may be the only mummy in existence with these flipped letters. </p>
+
+    <audio id="sound1" src="https://files.catbox.moe/bqvurt.mp3"></audio>
+    <audio id="sound2" src="https://files.catbox.moe/su0pca.mp3"></audio>
+
+<h1> _________________________________________</h1>
+
+<p>Thanks for looking, or reading!</p>
+
+<img src="https://i.ibb.co/hBjsWxm/IMG-9814.gif">
+
+<h1>_________________________</h1>
+    <!-- Panorama Container with Image -->
+    <p>The inflatable lounge</p>
+    <div class="panorama-container">
+        <img src="https://i.ibb.co/qFNBvYX/IMG-9787.jpg" alt="Panoramic Image">
+    </div>
+
+    <!-- Additional Content to Enable Scrolling -->
+    <div class="extra-content">
+<br><br><br><p>”HAԳԳY HALLOWƎƎN!”</p> 
+    </div>
+
+</div>
+   <script>
+        function playSound(soundId) {
+            var sound = document.getElementById(soundId);
+            sound.currentTime = 0; // Reset sound to start
+            sound.play();
+        }
+    </script>
+</body>
+</html>
